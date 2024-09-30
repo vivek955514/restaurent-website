@@ -342,4 +342,87 @@ p{
     margin-right: 1rem;
     opacity: 0.2;
   }
+.testimonial-section .carousel-indicators button.active{
+        opacity: 1;
+  }
+
+
+  /* footer section design-----++ */
+.footer{
+    background: var(--black-color);
+}
+.footer .footer-link{
+    font-size: 1rem;
+    color: var(--black-color);
+    padding: 0 1.875rem;
+
+}
+.footer .footer-link:hover{
+    color: var(--white-color);
+}
+.footer .footer-social a i{
+    font-size: 1.5rem;
+    color: var(--white-color);
+    padding: 0.1rem;
+}
+
+.footer .footer-social a:hover i{
+    color: var(--primary-color);
+}
+
+
+/* form control------+++++ */
+
+.newsletter .form-control{
+    height: 3.225rem;
+    padding: 0 1.25rem;
+    font-size: 0.875;
+    width: 100%;
+    border-radius: 0;
+    background: transparent;
+
+    border: 0.1875rem solid var(--white-color);
+    color: var(--black-color);
+    font-weight: 700;
+
+}
+
+.newsletter .main-btn{
+    height: 3.225rem;
+    padding: 0 1.25rem;
+    font-size: 0.875rem;
+    border-radius: 0;
+    background-color: var(--white-color);
+    border: 0.1875rem solid var(--white-color);
+    color: var(--black-color);
+    font-weight: 700;
+
+
+}
+
+.newsletter:hover .form-control{
+   border: 0.1875 solid var(--primary-color);
+   color: var(--black-color);
+
+}
+
+.newsletter :hover .main-btn{
+background: var(--primary-color);
+border: 0.1875 solid var(--primary-color);
+
+
+}
+
+.newsletter .form-control:hover,
+.newsletter .form-control:focus{
+    outline: none;
+    box-shadow: none;
+    border-color: var(--primary-color);
+
+
+
+
+}
+
+
 
