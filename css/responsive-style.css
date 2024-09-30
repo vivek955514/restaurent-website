@@ -19,6 +19,14 @@
     .top-banner{
         padding: 10.375rem 0 9.375rem;
     }
+     /* carousel design------ */
+  .testimonial-section .carousel-caption p{
+    padding: 0;
+  }
+
+  .footer .footer-social a i {
+    padding: 0 0.75rem;
+  }
     
 
     
@@ -37,6 +45,17 @@
     .top-banner{
         padding: 10.375rem 0 9.375rem;
     }
+     .testimonial-section .carousel-item{
+        padding: 11rem 3.125rem;
+      }
+
+}
+@media (max-width:330px){
+  /* carousel design--- */
+  .testimonial-section .carousel-item{
+    padding: 13rem 3.125rem;
+  }
+
 
 }
 
